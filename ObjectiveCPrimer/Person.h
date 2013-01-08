@@ -19,6 +19,7 @@
 - (void) setFirstName: (NSString *) newFirstName;
 - (NSString *) lastName;
 - (void) setLastName: (NSString *) newLastName;
+- (void) setFirstName:(NSString *)newFirstName andLastName:(NSString *)newLastName;
 - (int) age;
 - (void) setAge: (int) newAge;
 

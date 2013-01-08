@@ -26,6 +26,11 @@
     _lastName = newLastName;
 }
 
+- (void) setFirstName:(NSString *)newFirstName andLastName:(NSString *)newLastName {
+    _firstName = newFirstName;
+    _lastName = newLastName;
+}
+
 - (int) age {
     return _age;
 }
