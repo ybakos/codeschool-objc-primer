@@ -31,6 +31,10 @@ int main(int argc, const char * argv[]) {
         if (array) NSLog(@"array is not nil");
         else NSLog(@"array is nil");
         
+        NSString *aString = @"Revolution!";
+        NSLog(@"Where does aString point to? %p", aString);
+        NSLog(@"Where doe nil point to? %p", nil);
+        
     }
     return 0;
 }
