@@ -12,8 +12,9 @@ int main(int argc, const char * argv[]) {
 
     @autoreleasepool {
         
-        NSString *readersName = @"Yong";
-        NSLog(@"Hello there, %@", readersName);
+        NSString *firstName = @"Yong";
+        NSString *lastName = @"Bakos";
+        NSLog(@"Hello there, %@ %@.", firstName, lastName);
         
     }
     return 0;
