@@ -14,7 +14,9 @@ int main(int argc, const char * argv[]) {
         
         NSString *firstName = @"Yong";
         NSString *lastName = @"Bakos";
-        NSLog(@"Hello there, %@ %@.", firstName, lastName);
+        int age = 36;
+        
+        NSLog(@"Hello there, %@ %@. You've been alive for %d years.", firstName, lastName, age);
         
     }
     return 0;
