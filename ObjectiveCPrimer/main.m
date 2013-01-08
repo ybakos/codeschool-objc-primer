@@ -24,6 +24,13 @@ int main(int argc, const char * argv[]) {
         
         NSLog(@"Hello there, %@", yong);
         
+        NSArray *array = nil;
+        NSLog(@"What is nil: %@", nil);
+        NSLog(@"What is the 10th element in the array: %@", [array objectAtIndex:9]);
+        
+        if (array) NSLog(@"array is not nil");
+        else NSLog(@"array is nil");
+        
     }
     return 0;
 }
