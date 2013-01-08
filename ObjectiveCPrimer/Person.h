@@ -10,8 +10,10 @@
 
 @interface Person : NSObject
 
-    @property NSString *firstName;
-    @property NSString *lastName;
-    @property int age;
+@property (strong) Person *bestFriend;
+
+@property NSString *firstName;
+@property NSString *lastName;
+@property (readonly) int age;
 
 @end

@@ -16,7 +16,11 @@ int main(int argc, const char * argv[]) {
         Person *yong = [[Person alloc] init];
         yong.firstName = @"Yong";
         yong.lastName = @"Bakos";
-        yong.age = 36;
+        
+        Person *lindsey = [[Person alloc] init];
+        lindsey.firstName = @"Lindsey";
+        lindsey.lastName = @"Bakos!";
+        yong.bestFriend = lindsey;
         
         NSLog(@"Hello there, %@", yong);
         
