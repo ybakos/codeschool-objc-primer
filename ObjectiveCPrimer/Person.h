@@ -12,7 +12,7 @@
 
 @property (strong) Person *bestFriend;
 
-@property NSString *firstName;
+@property id firstName;
 @property NSString *lastName;
 @property (readonly) int age;
 

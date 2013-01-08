@@ -17,12 +17,12 @@ int main(int argc, const char * argv[]) {
         yong.firstName = @"Yong";
         yong.lastName = @"Bakos";
         
+        NSLog(@"Hello there, %@", yong);
+        
         Person *lindsey = [[Person alloc] init];
         lindsey.firstName = @"Lindsey";
         lindsey.lastName = @"Bakos!";
         yong.bestFriend = lindsey;
-        
-        NSLog(@"Hello there, %@", yong);
         
         NSArray *array = nil;
         NSLog(@"What is nil: %@", nil);
@@ -34,6 +34,11 @@ int main(int argc, const char * argv[]) {
         NSString *aString = @"Revolution!";
         NSLog(@"Where does aString point to? %p", aString);
         NSLog(@"Where doe nil point to? %p", nil);
+
+        yong.firstName = @[@"Tupac", @"Shakur"];
+        NSLog(@"yong.firstName = %@", yong.firstName);
+        NSLog(@"There are %d items in yong.firstName", [yong.firstName count]);
+        
         
     }
     return 0;
