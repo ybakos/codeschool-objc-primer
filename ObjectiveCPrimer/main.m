@@ -14,11 +14,11 @@ int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
         Person *yong = [[Person alloc] init];
-        [yong setFirstName:@"Yong"];
-        [yong setLastName:@"Bakos"];
-        [yong setAge:36];
+        yong.firstName = @"Yong";
+        yong.lastName = @"Bakos";
+        yong.age = 36;
         
-        NSLog(@"Hello there, %@ %@. You've been alive for %d years.", [yong firstName], [yong lastName], [yong age]);
+        NSLog(@"Hello there, %@ %@. You've been alive for %d years.", yong.firstName, yong.lastName, yong.age);
         
     }
     return 0;
