@@ -10,4 +10,8 @@
 
 @implementation Person
 
+- (NSString *) description {
+    return [NSString stringWithFormat:@"%@ %@, who is %d years old.", self.firstName, self.lastName, self.age];
+}
+
 @end

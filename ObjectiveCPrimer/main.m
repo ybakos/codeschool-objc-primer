@@ -18,7 +18,7 @@ int main(int argc, const char * argv[]) {
         yong.lastName = @"Bakos";
         yong.age = 36;
         
-        NSLog(@"Hello there, %@ %@. You've been alive for %d years.", yong.firstName, yong.lastName, yong.age);
+        NSLog(@"Hello there, %@", yong);
         
     }
     return 0;
