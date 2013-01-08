@@ -10,4 +10,28 @@
 
 @implementation Person
 
+- (NSString *) firstName {
+    return _firstName;
+}
+
+- (void) setFirstName:(NSString *)newFirstName {
+    _firstName = newFirstName;
+}
+
+- (NSString *) lastName {
+    return _lastName;
+}
+
+- (void) setLastName:(NSString *)newLastName {
+    _lastName = newLastName;
+}
+
+- (int) age {
+    return _age;
+}
+
+- (void) setAge:(int)newAge {
+    _age = newAge;
+}
+
 @end
