@@ -1,3 +1,6 @@
+Notes from the Codeschool Objective-C Primer
+==================
+
 This is some simple code written while reading <a href="https://speakerdeck.com/rubymaverick/objective-c-primer-ft-mr-higgie">An Objective-C Primer</a> by Eric Allam (with help from Mr. Higgie).
 
 For Students
