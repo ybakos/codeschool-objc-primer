@@ -39,6 +39,12 @@ int main(int argc, const char * argv[]) {
         NSLog(@"yong.firstName = %@", yong.firstName);
         NSLog(@"There are %d items in yong.firstName", [yong.firstName count]);
         
+        SEL firstNameSelector = @selector(firstName);
+        
+        NSLog(@"[yong firstName] = %@", [yong performSelector:firstNameSelector]);
+        NSLog(@"[yong firstName] = %@", [yong performSelector:@selector(firstName)]);
+        NSLog(@"[yong firstName] = %@", [yong performSelector:NSSelectorFromString(@"firstName")]);
+        
         
     }
     return 0;
